@@ -18,5 +18,5 @@ from django.urls import path , include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('app1/', include('heroku.app1')),
+    path('', include('app1.heroku_url')),
 ]
